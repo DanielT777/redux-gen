@@ -1,6 +1,6 @@
 {
   "name": "redux-file-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": {
     "redux-gen": "./dist/app.js"
@@ -42,5 +42,5 @@
   },
   "pkg": {
     "scripts": "build/**/*.js"
-  },
+  }
 }
