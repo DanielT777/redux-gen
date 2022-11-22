@@ -20,14 +20,8 @@ Redux-Gen allows you to automatically generate OR add to your redux files a skel
 
 NPM
 ```bash
-npm install redux-gen
+npm i redux-file-generator -g
 ```
-
-Yarn 
-```bash
-yarn add redux-gen
-```
-
 
 
 You must absolutely have in your project a "actions" and "reducers" folder.

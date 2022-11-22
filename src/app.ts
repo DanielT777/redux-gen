@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 import PromptState from './interfaces'
 import actionReducersProcess from './prompt/actionReducersProcess'
 const prompts = require('prompts')
