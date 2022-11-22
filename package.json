@@ -1,5 +1,5 @@
 {
-  "name": "redux-generator",
+  "name": "redux-files-generator",
   "version": "1.0.0",
   "description": "",
   "bin": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@gitlab.apnl.tech:2222/rn-librairies/redux-generator.git"
+    "url": "https://github.com/DanielT777/redux-gen"
   },
   "keywords": [],
   "author": "",
