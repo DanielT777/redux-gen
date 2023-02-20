@@ -1,6 +1,6 @@
 {
   "name": "redux-file-generator",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "",
   "bin": {
     "redux-gen": "./dist/app.js"
@@ -9,7 +9,7 @@
   "scripts": {
     "install": "npm i redux-file-generator -g",
     "create": "npm run build",
-    "build": "tsc",
+    "build": "tsc -p .",
     "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "pkg . --targets node14-macos-x64 --output redux-gen"
@@ -32,14 +32,20 @@
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint": "^8.27.0",
-    "pkg": "^5.8.0",
-    "typescript": "^4.9.3"
+    "pkg": "^5.8.0"
   },
   "dependencies": {
     "colors": "^1.4.0",
     "fs": "^0.0.1-security",
     "glob": "^8.0.3",
-    "prompts": "^2.4.2"
+    "prompts": "^2.4.2",
+    "typescript": "^4.9.3",
+    "@tsconfig/node12": "^1.0.11",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "pkg": "^5.8.0"
   },
   "pkg": {
     "scripts": "build/**/*.js"
