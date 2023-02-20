@@ -1,13 +1,12 @@
 {
   "name": "redux-file-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "bin": {
     "redux-gen": "./dist/app.js"
   },
   "main": "./dist/app.js",
   "scripts": {
-    "install": "npm i redux-file-generator -g",
     "create": "npm run build",
     "build": "tsc -p .",
     "lint": "eslint . --ext .ts",
